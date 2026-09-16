@@ -1,0 +1,165 @@
+body{
+    background-color: black;
+}
+.img1{
+   border: 2px solid rgba(47, 40, 40, 0.626);
+   position: absolute;
+   width: 1500px;
+   height: 1000px;
+   top: 00px;
+   background-color: rgba(51, 29, 6, 0.664);
+}
+.coffee{
+    position: absolute;
+    top: 110px;
+    left: 220px;
+    font-size: 30px;
+    color: white;
+    font-family:'pacifico',cursive ;
+    animation: move1 3s alternate;
+}
+.cup{
+    position: absolute;
+    top: 130px;
+    left: 70px;
+    animation: move1 3s alternate;
+
+}
+.h4{
+    position: absolute;
+    top: 130px;
+    width: 750px;
+    left: -150px;
+    animation: move1 3s alternate;
+}
+.box1{
+    position: absolute;
+    top: 130px;
+    left: 850px;
+    font-size: 20px;
+    color: white;
+    animation: move1 3s alternate;
+}
+.box2{
+    position: absolute;
+    top: 130px;
+    left: 1050px;
+    color: white;
+    animation: move1 3s alternate;
+}
+.box3{
+    border: 2px solid white;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 690px;
+    width: 1600px;
+    animation: move1 3s alternate;
+}
+.box4{
+    color: white;
+    position: absolute;
+    top: 620px;
+    left: 530px;
+    text-align: center;
+    font-size: 15px;
+    animation: move1 3s alternate;
+    
+}
+.map{
+    position: absolute;
+    top: 780px;
+    
+}
+.map1{
+    position: absolute;
+    top: 715px;
+    font-size: 15px;
+    color: white;
+    border: 2px solid black;
+    width: 1500px;
+    background-color: black;
+    
+}
+.box5{
+   
+    height: 50px;
+    
+    position: absolute;
+    top: 1230px;
+    width: 1900px;
+    color: white;
+    animation: move 15s infinite;
+}
+.rate{
+    position: absolute;
+    top: 1300px;
+    left: -200px;
+    
+}
+.box6{
+    border: 2px solid rgba(128, 128, 128, 0.484);
+    position: absolute;
+    top: 1500px;
+    width: 400px;
+    height: 100px;
+    left: 150px;
+    background-color: rgba(128, 128, 128, 0.484);
+    border-radius: 20px;
+    color: white;
+    font-family: cursive;
+    animation: move2 3s alternate;
+}
+.box7{
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    font-size: 40px;
+    animation: move2 3s alternate;
+    
+}
+@keyframes move{
+    to{
+        transform: translateX(1300px);
+    }
+    from{
+        transform: translateX(0);
+    }
+}
+.box8{
+     position: absolute;
+    top: 1400px;
+    left: 750px;
+    font-family: cursive;
+    font-size: 25px ;
+    color: white;
+    animation: move2 3s alternate;
+}
+.box9{
+     position: absolute;
+    top: 1400px;
+    left: 1100px;
+    font-family: cursive;
+    font-size: 25px ;
+    color: white;
+    animation: move2 3s alternate;
+}
+.loc{
+    animation: move 15s infinite;
+}
+@keyframes move1{
+    to{
+        transform: translatey(0px);
+    }
+    from{
+        transform: translatey(-400px);
+    }
+}
+@keyframes move2{
+    to{
+        transform: translateX(0);
+    }
+    from{
+        transform: translateX(-1000px);
+    }
+}

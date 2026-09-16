@@ -1,0 +1,171 @@
+body{
+    margin: 0px;
+    min-height: 100vh;
+    background-color:#1f0c05 ;
+}
+.box{
+    border: 2px solid #271c19;
+    background-color: #271c19;
+}
+.text{
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    position: relative;
+    left: 90px;
+    top: 0px;
+}
+.about{
+    position: absolute;
+    top: 30px;
+    left: 830px;
+    font-size: 20px;
+    border: 2px solid #271c19;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+     height: 30px;
+     color: white;
+    
+}
+.about:hover{
+    background-color: #28120A;
+    border-color: #28120A;
+    border-radius: 20px;
+}
+
+.ourcoffe{
+    position: absolute;
+    top: 30px;
+    left: 945px;
+    font-size: 20px;
+    border: 2px solid #271c19;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+   
+}
+.ourcoffe:hover{
+     background-color: #28120A;
+    border-color: #28120A;
+    border-radius: 20px;
+}
+.product{
+    position: absolute;
+    top: 30px;
+    left: 1070px;
+    font-size: 20px;
+     border: 2px solid #271c19;
+    width: 100px;
+    text-align: center;
+     height: 30px;
+     
+}
+.product:hover{
+     background-color: #28120A;
+    border-color: #28120A;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    position: absolute;
+    top: 30px;
+    left: 1190px;
+    font-size: 20px;
+     border: 2px solid #271c19;
+    width: 100px;
+    text-align: center;
+     height: 30px;
+}
+.menu:hover{
+     background-color: #28120A;
+    border-color: #28120A;
+    border-radius: 20px;
+}
+.contact{
+    position: absolute;
+    top: 30px;
+    left: 1315px;
+    font-size: 20px;
+     border: 2px solid #271c19;
+    width: 100px;
+    text-align: center;
+     height: 30px;
+}
+.contact:hover{
+     background-color: #28120A;
+    border-color: #28120A;
+    border-radius: 20px;
+}
+.logo1{
+    position: absolute;
+    left: 200px;
+    top: 130px;
+}
+.logo1:hover{
+    transition: all 0.3s;
+transform: scale(1.2);
+}
+.exceptional{
+    font-style: medium;
+    font-size: 13px;
+    line-height: 100%;
+    font-weight: 500px;
+    color: goldenrod;
+    position: absolute;
+    top: 185px;
+    left: 800px;
+}
+.its{
+    font-family: 'pacifico',cursive;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 180px;
+    left: 800px;
+}
+.logo2{
+    position: absolute;
+    top:240px;
+    left: 1080px;
+    height: 124px;
+    width: 120px;
+}
+.logo2:hover{
+transform: scale(1.2);
+transition: all 0.3s;
+}
+.At{
+    color: white;
+    position: absolute;
+    left: 800px;
+    top: 370px;
+    font-family: Arial;
+    font-weight: 200px;
+    font-size: 16px;
+}
+.button1{
+    border: 2px solid goldenrod;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    background-color: goldenrod;
+    border-radius: 20px;
+    position: absolute;
+    left: 900px;
+    top: 570px;
+    font-size: 18px;
+    font-weight: 300px;
+}
+.button1:hover{
+    transform: scale(1.2);
+transition: all 0.3s;
+}
+.cup{
+    background: transparent;
+    position: absolute;
+    top: 5px;
+}

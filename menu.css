@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius: 60px;
+}
+body{
+    background-color:#20120d ;
+    border-radius: 60px;
+}
+.text1{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    font-size: 20px;
+    color: white;
+    font-family: "Brittany Signature",cursive;
+}
+.text1{
+    text-align: center;
+}
+.text4{
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img2{
+    position: absolute;
+    left: 550px;
+}
+.img3{
+    position: absolute;
+    left: 200px;
+    top: 350px;
+}
+.img4{
+    position: absolute;
+    left: 950px;
+    top: 350px;
+}
+.img2:hover{
+    transition: all 0.3s;
+transform: scale(1.2);
+}
+.img3:hover{
+    transition: all 0.3s;
+transform: scale(1.2);
+}
+.img4:hover{
+    transition: all 0.3s;
+transform: scale(1.2);
+}
+.img5{
+    rotate: calc(60deg);
+    position: absolute;
+    left: 1150px;
+    top: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.next{
+    border: 2px solid goldenrod;
+    width: 100px;
+    text-align: center;
+    background-color: goldenrod;
+    color: black;
+    position: absolute;
+    left: 1350px;
+    top: 540px;
+    font-size: 20px;
+}
+.next:hover{
+      transition: all 0.3s;
+transform: scale(1.2);
+}

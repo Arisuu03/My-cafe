@@ -1,0 +1,50 @@
+body{
+    background-color:#1f0c05 ;
+}
+.h{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-style: oblique;
+    font-size: 20px;
+}
+.p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-style: medium;
+    font-size: 17px;
+}
+.img1{
+   position: absolute;
+   top: 200px;
+   left: 360px;
+   border-radius: 20px;
+  
+   animation: move 2s  alternate;
+}
+.img1:hover{
+    transform: scale(1.2);
+transition: all 0.3s;
+}
+@keyframes move{
+    from{
+transform: scale(1.1)
+    }
+    to{
+        transform: matrix();
+    }
+}
+.h2{
+    color: white;
+    position: absolute;
+    left: 400px;
+    top: 390px;
+    font-size: 25px;
+}
+.sin{
+    color: goldenrod;
+    position: absolute;
+    top: 630px;
+    font-size: 13px;
+}
